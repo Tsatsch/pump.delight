@@ -2,7 +2,7 @@
 
 Pump.Delight is an Ethereum-based project that allows users to easily create and launch their own ERC20 tokens (coins) without requiring extensive technical knowledge. Built using the Foundry development toolchain, Pump.Delight provides a user-friendly interface for defining token parameters and deploying contracts to the Ethereum network.
 
-![Uploading openart-image_Bo0TbzEa_1726909307861_raw.jpg…]()
+![Pump.Delight](images/pump-delight.png)
 
 
 ## Contributing
