@@ -1,66 +1,19 @@
-## Foundry
+# Pump.Delight
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Pump.Delight is an Ethereum-based project that allows users to easily create and launch their own ERC20 tokens (coins) without requiring extensive technical knowledge. Built using the Foundry development toolchain, Pump.Delight provides a user-friendly interface for defining token parameters and deploying contracts to the Ethereum network.
 
-Foundry consists of:
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Contributing
+We welcome contributions from the community to enhance Pump.Delight and expand its capabilities. To contribute, please follow these steps:
+Fork the Pump.Delight repository on GitHub.
+Create a new branch for your feature or bug fix.
+Make your modifications and ensure that the code passes all tests.
+Submit a pull request detailing your changes and their benefits.
+Please adhere to the project's coding conventions, maintain clear and concise commit messages, and provide thorough documentation for any new features or modifications.
 
-## Documentation
+## License
+Pump.Delight is released under the MIT License, allowing for open-source use, modification, and distribution.
+Contact
 
-https://book.getfoundry.sh/
 
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+Happy token creation with Pump.Delight!
